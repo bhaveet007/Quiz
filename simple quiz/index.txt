@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+        <head><title>Simple javascript quiz</title>
+            <link rel="stylesheet" href="css/style.css">
+            <script src="js/script.js"></script>
+            
+    </head>
+    <body>
+        <div id="container">
+        <header>
+        <h1>
+            Simple javascript quiz</h1>
+        <p>Test your knowledge in <strong>Javascript fundamentals</strong></p>
+        </header>
+        <section>
+        <div id="results"></div>
+            <form name="quizForm" onsubmit="return submitAnswers()">
+                <h3>1.In which HTML element do we put in javascript code?</h3>
+            <input type="radio" name="q1" value="a" id="q1a">a. &lt;js&gt;<br>
+             <input type="radio" name="q1" value="b" id="q1a">b. &lt;script&gt;<br>
+             <input type="radio" name="q1" value="c" id="q1a">c. &lt;body&gt;<br>
+             <input type="radio" name="q1" value="d" id="q1a">d. &lt;link&gt;<br>
+            <input type="submit" value="Submit answers">
+            </form> 
+             
+            </div>
+        </section>
+        <footer>
+        <p>Copyright &copy;2014</p></footer>
+    </body>
+</html>
